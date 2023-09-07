@@ -1,17 +1,17 @@
 
 @font-face {
     font-family: 'netflixm'; 
-    src: url('NetflixSans-Medium.woff2') format('woff2');
+    src: url('/fonts/NetflixSans-Medium.woff2') format('woff2');
 }
 
 @font-face{
     font-family: 'netflixl';
-    src: url('NetflixSans-Light.woff2') format('woff2');
+    src: url('/fonts/NetflixSans-Light.woff2') format('woff2');
 }
 
 @font-face{
     font-family: 'netflixb';
-    src: url('NetflixSans-Bold.woff2') format('woff2');
+    src: url('/fonts/NetflixSans-Bold.woff2') format('woff2');
 }
 *{
     padding: 0;
@@ -23,7 +23,7 @@
 #section1{
     width: 100%;
     height: 100vh;
-    background: url(project\ prueba.jpg);
+    background: url(/img/projectprueba.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
