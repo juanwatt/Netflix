@@ -1,0 +1,422 @@
+
+@font-face {
+    font-family: 'netflixm'; 
+    src: url('NetflixSans-Medium.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'netflixl';
+    src: url('NetflixSans-Light.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'netflixb';
+    src: url('NetflixSans-Bold.woff2') format('woff2');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#section1{
+    width: 100%;
+    height: 100vh;
+    background: url(project\ prueba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.249);
+}
+
+.navpapa{
+    display: flex;
+    justify-content: center;
+}
+.navbarcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+    height: 120px;
+    background-color: none;
+}
+
+.default-ltr-cache-1d568uk{
+    width: 210px;
+    color: rgb(229,9,20);
+    fill: currentColor;
+    display: block;
+}
+
+.botones{
+    display: flex;
+    gap: 30px;
+}
+
+
+.botones .idioma{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#seleccion {
+    padding: 10px 36px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.669);
+    font-size: 21px;
+    font-family: netflixm;
+    letter-spacing: 1px;
+    border-radius: 5px;     
+    cursor: pointer;                                         
+}
+
+.botones .idioma a{
+    padding: 8px 36px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.botones .login{
+    background-color: red;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.botones .login:hover{
+    background-color: rgb(197, 21, 21);
+}
+
+.botones .login a{
+    padding: 6px 20px;
+    text-align: center;
+    font-size: 21px;
+    font-family: netflixm;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.contenido1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85.7%;
+    align-items: center;
+
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: fit-content;
+    gap: 30px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.titulo h1{
+    font-size: 66px;
+    color: white;
+    font-family: netflixb;
+    text-align: center;
+}
+
+.titulo h2{
+    font-size: 33px;
+    color: white;
+    font-family: netflixl;
+    text-align: center;
+    font-weight: 500;
+}
+
+.titulo h3{
+    font-size: 27px;
+    color: white;
+    font-family: netflixl;
+    text-align: center;
+    font-weight: 500;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: fit-content;
+    width: 100%;
+}
+
+form input[type="email"]{
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(16, 16, 16, 0.815);
+    caret-color: white;
+    font-size: 24px;
+    font-family: netflixm;
+    color: white;
+    border: 2px solid gray;
+}
+
+form input[type="email"]:focus{
+    outline: 3px solid white;
+}
+
+::placeholder{
+    padding-left: 5px;
+    font-family: netflixm;
+    font-size: 20px;
+    color: rgb(179, 175, 169);
+}
+form input[type="submit"]{
+    width: 20%;
+    height: 100%;
+    padding: 23px;
+    font-size: 28px;
+    text-align: center;
+    font-family: netflixm;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(240, 17, 17);
+    transition: .2s;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    background-color: rgb(197, 21, 21);
+}
+
+/* INICIO SECTION 2*/
+
+#section2{
+    border-top: 11px solid #232222;
+    border-bottom: 11px solid #232222;
+    width: 100%;
+    height: 44rem;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.contenido2{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+.text h2{
+    font-family: netflixb;
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+.text p{
+    font-family: netflixl;
+    font-size: 34px;
+    color: white;
+}
+.img img{
+    position: sticky;
+    z-index: 2;
+}
+.video{
+    position: absolute;
+    z-index: 1;
+    margin-top: 100px;
+    right: 16%; 
+    width: 465px;
+}
+
+#section3{
+    border-bottom: 11px solid #232222;
+    width: 100%;
+    height: 44rem;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.contenido3{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.img2{
+    display: flex;
+    flex-direction: column;
+}
+
+#imagen{
+    position: sticky;
+    z-index: 2;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    left: 19%;
+    bottom: -1250px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.cardtext{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cardtext img{
+    height: 90%;
+}
+
+.subtext h3{
+    color: white;
+    font-family: netflixl;
+    font-size: 20px;
+}
+
+.subtext p{
+    color: rgb(46, 46, 205);
+    font-family: netflixl;
+    font-size: 16px;
+}
+.cardgif{
+    display: flex;
+    align-items: center;
+}
+.cardgif img{
+    height: 80%;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.text2 h2{
+    font-family: netflixb;
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+.text2 p{
+    font-family: netflixl;
+    font-size: 34px;
+    color: white;
+}
+
+/* Inicio Section 4 */
+
+#section4{
+    border-bottom: 11px solid #232222;
+    width: 100%;
+    height: 44rem;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.contenido4{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.text4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+.text4 h2{
+    font-family: netflixb;
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+.text4 p{
+    font-family: netflixl;
+    font-size: 34px;
+    color: white;
+}
+.img4 img{
+    position: sticky;
+    z-index: 2;
+}
+
+/* Inicio Section 5*/
+
+#section5{
+    border-bottom: 11px solid #232222;
+    width: 100%;
+    height: 44rem;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.contenido5{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.img5 img{
+    position: sticky;
+    z-index: 2;
+}
+
+.text5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+.text5 h2{
+    font-family: netflixb;
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+.text5 p{
+    font-family: netflixl;
+    font-size: 34px;
+    color: white;
+}
